@@ -1,0 +1,45 @@
+# Composer
+/vendor/
+/composer.lock
+/composer.phar
+
+# SysKeep
+log/*
+!log/.gitkeep
+database/*
+!database/.gitkeep
+iv.bin
+
+# PHPUnit
+/phpunit.xml
+/phpunit.xml.dist
+/.phpunit.result.cache
+/phpunit-coverage.xml
+/.phpunit.result
+/.phpunit.cache
+
+# Environment variables
+.env
+
+# IDEs & OS
+.vscode/
+.idea/
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+target/
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+.DS_Store

@@ -1,0 +1,28 @@
+{
+    "name": "seba/password-manager",
+    "description": "A simple password manager",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "classmap": [
+            "src/components/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Sebastiano Racca",
+            "email": "sebastiano@racca.me"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    },
+    "scripts": {
+        "setup": "composer update --no-dev && php src/bootstrap.php",
+        "test": "composer update && ./vendor/bin/phpunit tests/"
+    }
+}

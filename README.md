@@ -41,11 +41,3 @@ See the [docs](https://github.com/SysKeep/core/tree/main/doc) for all the availa
 
 ## License
 [SysKeep/core](https://github.com/SysKeep/core/) is under the [MIT License](https://github.com/SysKeep/core/blob/main/LICENSE).
-
-
-
-## Contributing
-We welcome contributions to LPM! If you have any bug reports, feature requests, or improvements, please submit them as issues or pull requests.
-
-
-

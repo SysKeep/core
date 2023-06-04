@@ -16,7 +16,7 @@ define("RED", "\033[31m");
 
 
 if(!file_exists(ROOT_DIR . ".env")){
-    echo RED . "Please add your .env file\n" . RESET . "\tSee https://github.com/SysKeep/core/blob/main/doc/env-usage.md";
+    echo RED . "Please add your .env file\n" . RESET . "\tSee https://github.com/SysKeep/core/blob/main/doc/env-usage.md\n";
     exit(1);
 }
 

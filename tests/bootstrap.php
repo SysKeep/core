@@ -7,6 +7,6 @@
  */
 
 
-define("ROOT_DIR", strtr(__DIR__, ["tests" => ""]));
+define("ROOT_DIR", substr_replace(__DIR__, "", strrpos(__DIR__, "src"), strlen("src")));
 
 ?>

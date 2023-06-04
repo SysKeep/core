@@ -7,7 +7,7 @@
 
 require_once __DIR__ . "/../vendor/autoload.php";
 
-define("ROOT_DIR", strtr(__DIR__, ["src" => ""]));
+define("ROOT_DIR", substr_replace(__DIR__, "", strrpos(__DIR__, "src"), strlen("src")));
 
 // Loading .env variables
 if (file_exists(ROOT_DIR . ".env")) {
@@ -16,7 +16,7 @@ if (file_exists(ROOT_DIR . ".env")) {
 }
 
 $logger = new Components\Logger\Logger(
-    (bool)$_ENV['LOGGER'] ?? false,
+    (bool)($_ENV['LOGGER'] ?? false),
     ROOT_DIR . "log/syskeep.log",
     array_filter([
         $_SERVER['HTTP_ORIGIN'] ?? null,

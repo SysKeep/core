@@ -1,4 +1,8 @@
-<h1 align="center">SysKeep Core</h1>
+<div align="center">
+ 	<img align="center" src="https://github.com/SysKeep/core/assets/115643607/90e679d2-288d-4159-a82b-0850c80b7012" alt="SysKeep">
+	<h1>SysKeep Core</h1>
+</div>
+
 
 SysKeep's Core is a lightweight and flexible api for a password management system that allows you to securely store and manage your passwords.<br>
 It is designed to be hosted locally on your own server, giving you full control over your data.

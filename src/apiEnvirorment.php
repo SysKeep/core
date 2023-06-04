@@ -25,6 +25,8 @@ if(!$response->allowOrigin(($_ENV['ALLOWED_ORIGINS'] == "") ? null : explode(" "
     $response->send();
 }
 
+$response->allowHeaders(["Authorization"]);
+
 
 
 // The user needs the Authorization header to proceed

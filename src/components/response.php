@@ -79,6 +79,15 @@ final class Response{
         return true;
     }
 
+
+    /**
+     * Sets the alowed Headers.
+     * 
+     * @param array $headers The allowed headers.
+     */
+    public function allowHeaders(?array $headers){
+        header("Access-Control-Allow-Headers: " . implode(" ", $headers));   
+    }
 }
 
 

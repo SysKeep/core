@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Description.
+ * This file runs some envirorment checks and restores the database if needed
  * 
  * @author Sebastiano Racca
  */
@@ -14,7 +14,6 @@ define("GREEN", "\033[32m");
 define("YELLOW", "\033[33m");
 define("RED", "\033[31m");
 
-echo GREEN;
 
 if(!file_exists(ROOT_DIR . ".env")){
     echo RED . "Please add your .env file\n" . RESET . "\tSee https://github.com/SysKeep/core/blob/main/doc/env-usage.md";

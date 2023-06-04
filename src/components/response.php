@@ -86,7 +86,7 @@ final class Response{
      * @param array $headers The allowed headers.
      */
     public function allowHeaders(?array $headers){
-        header("Access-Control-Allow-Headers: " . implode(" ", $headers));   
+        header("Access-Control-Allow-Headers: " . implode(", ", $headers));   
     }
 }
 

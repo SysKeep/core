@@ -1,5 +1,5 @@
 <div align="center">
- 	<img align="center" src="https://github.com/SysKeep/core/assets/115643607/90e679d2-288d-4159-a82b-0850c80b7012" alt="SysKeep">
+ 	<img align="center" src="https://github.com/SysKeep/core/assets/115643607/ac3ba833-e9ad-40be-8f59-11d52100d13a" alt="SysKeep">
 	<h1>SysKeep Core</h1>
 </div>
 

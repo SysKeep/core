@@ -7,6 +7,7 @@ It is designed to be hosted locally on your own server, giving you full control 
 # Features
 * **Multi-User Support**: Create and manage multiple user accounts.
 * **Flexibility**: Not just passwords, add your own types.
+* **Security**: All the data stored in the `database/` directory is encrypted.
 
 
 # Requirements
